@@ -2,7 +2,7 @@ from array import array
 from numpy import ndarray
 from numpy import array as narray
 from statistics import mean, pstdev
-from mad import MAD # this is can be any function that calculates mean absolute deviation (it can even be a custom script as in this case)
+from mad import MAD # this can be any function that calculates mean absolute deviation (even a custom script as in this case)
 
 class indicators:
     """
